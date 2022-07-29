@@ -16,7 +16,8 @@ class Src:
             print("\nLatitude : %s \n\nLongitude : %s" % (location.latitude, location.longitude))
             print("\nGoogle Maps : https://www.google.com/maps/search/?api=1&query={},{}".format(location.latitude,location.longitude))
         except:
-            print("\n{!} Lokasi Tidak Ada")                
+            print("\n{!} Lokasi Tidak Ada")
+               
     def dist():
         try:
             os.system("clear")
